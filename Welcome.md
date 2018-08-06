@@ -1,7 +1,8 @@
 # This is my personal webpage
     Welcome!
 
-    Have made webpages on my computer, but never posted it on github. So this is a practice using github, while I make my new homepage.
+    Have made webpages on my computer, but never posted it on github. 
+    So this is a practice using github, while I make my new homepage.
 
 
 ## Programming languanges
