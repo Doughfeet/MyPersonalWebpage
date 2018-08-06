@@ -1,0 +1,14 @@
+.container{
+    background: linear-gradient(
+        to right, 
+        #ff9e2c 0%, 
+        #ff9e2c 40%, 
+        #b6701e 40%, 
+        #b6701e 100%
+      );
+}
+
+footer{
+    bottom: 10%;
+    position: fixed;
+}
