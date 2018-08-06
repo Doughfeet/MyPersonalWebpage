@@ -1,15 +1,28 @@
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+  }
 
 .container{
     background: linear-gradient(
         to right, 
-        #ff9e2c 0%, 
-        #ff9e2c 40%, 
-        #b6701e 40%, 
-        #b6701e 100%
+        #287bf8 0%, 
+        #287bf8 40%, 
+        #9bc0f8 40%, 
+        #9bc0f8 100%
       );
 }
 
+/* Footer */
 #footer{
     bottom: 10%;
     position: fixed;
 }
+
+.social-icon{
+    width: 20px;
+    height: 20px;
+}
+
+
