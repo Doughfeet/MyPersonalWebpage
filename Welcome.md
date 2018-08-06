@@ -2,7 +2,7 @@
     Welcome!
 
     Have made webpages on my computer, but never posted it on github. 
-    So this project will a practice using github, while I make my new homepage.
+    So this project will be a practice using github, while I make my new homepage.
 
 
 ## Programming languanges
