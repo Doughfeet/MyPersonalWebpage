@@ -1,10 +1,12 @@
+
 .wrapper{
     text-align: left;
     position: relative;
     min-height: 100%;
+    margin-top: -20px;
   }
 
-.content-wrapper{
+.color-container{
     background: linear-gradient(
         to bottom, 
         #287bf8 0%, 
@@ -12,6 +14,7 @@
         white 35%, 
         white 100%
       );
+
 }
 
 /* Container, with image, text and buttons */
@@ -59,7 +62,7 @@
 /* Footer */
 #footer{
     position: absolute;
-    background-color: red;
+    width: 100%;
 }
 .social-icon{
     width: 20px;
