@@ -1,10 +1,10 @@
-.wrapper{
+/* .wrapper{
     width: 80%;
     margin: 0 auto;
     text-align: left;
-  }
+  } */
 
-.container{
+.body-container{
     background: linear-gradient(
         to right, 
         #287bf8 0%, 
@@ -25,14 +25,40 @@
     height: 20px;
 }
 
-.content{
+.content-container{
     margin: auto;
-}
-.main-photo{
-    display: block;
-    margin-left: 20%;
-    margin-right: auto;
-    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;
 
 }
+
+.content-picture{
+    display: block;
+}
+
+.main-photo{
+    max-width: 80%;
+}
+
+.content-links{
+    background-color: green;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-button{
+    list-style-type: none;
+    width: 100%;
+    height: auto;
+    margin: 2px 0;
+    background-color: blue;
+    border: 1px solid lightgrey;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 28px;
+}
+
 
