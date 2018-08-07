@@ -1,12 +1,17 @@
-
+html, body {
+    height: 100%;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+  }
 .wrapper{
+    flex: 1 0 auto;
     text-align: left;
     position: relative;
-    min-height: 100%;
-    margin-top: -20px;
   }
 
-.color-container{
+.wrapper{
     background: linear-gradient(
         to bottom, 
         #287bf8 0%, 
@@ -14,7 +19,6 @@
         white 35%, 
         white 100%
       );
-
 }
 
 /* Container, with image, text and buttons */
@@ -61,8 +65,8 @@
 
 /* Footer */
 #footer{
-    position: absolute;
-    width: 100%;
+    background-color: #287bf8;
+    flex-shrink: 0;
 }
 .social-icon{
     width: 20px;
