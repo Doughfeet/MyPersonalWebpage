@@ -72,3 +72,11 @@ html, body {
     width: 20px;
     height: 20px;
 }
+
+.footer-text{
+    margin: 5px;
+}
+
+.footer-center{
+    text-align: center;
+}
