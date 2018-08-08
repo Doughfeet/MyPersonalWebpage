@@ -21,13 +21,18 @@ html, body {
       );
 }
 
+.content-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 /* menu bar top right */
 .dropbtn{
     background-color: #287bf8;
     color: white;
     padding: 16px;
-    font-size: 16x;
+    font-size: 40px;
     border: none;
 }
 
