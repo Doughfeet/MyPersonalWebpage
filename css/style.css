@@ -21,17 +21,32 @@ html, body {
       );
 }
 
+/* COLOR HEADINGS and p */
+/* ---------------------------------------------- */
+h1, h5, p{
+    color: white;
+
+}
+/* ---------------------------------------------- */
+
+
+/* HEADING */
+/* ---------------------------------------------- */
+
 .content-heading{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-/* menu bar top right */
+/* TITLE */
+
+
+/* MENU TOP RIGHT */
 .dropbtn{
     background-color: #287bf8;
     color: white;
-    padding: 16px;
+    padding: 25px;
     font-size: 40px;
     border: none;
 }
@@ -44,30 +59,37 @@ html, body {
 .dropdown-content{
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #287bf8;
 }
 /* Links inside the dropdown */
 .dropdown-content a {
-    color: black;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
-    display: block;
+    display: block
 }
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+    background-color: white; 
+    color: blue;
+}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #287bf8;}
+.dropdown:hover .dropbtn {
+    background-color: #287bf8;
+}
+
+/* ---------------------------------------------- */
 
 
 
 
+/* CONTAINER CONTENT */
+/* ---------------------------------------------- */
 
-
-/* Container, with image, text and buttons */
 /* .container-content{
     margin: auto;
     display: flex;
@@ -88,6 +110,25 @@ html, body {
     margin-bottom: 10px;
 }
 
+
+/* FOOTER */
+/* ---------------------------------------------- */
+#footer{
+    background-color: #287bf8;
+    flex-shrink: 0;
+}
+.social-icon{
+    width: 20px;
+    height: 20px;
+}
+
+.footer-text{
+    margin: 5px;
+}
+
+.footer-center{
+    text-align: center;
+}
 .content-information{
     width: 80%;
     margin: 0 auto;
@@ -111,21 +152,4 @@ html, body {
     text-decoration: none;
     font-size: 28px;
 }
-
-/* Footer */
-#footer{
-    background-color: #287bf8;
-    flex-shrink: 0;
-}
-.social-icon{
-    width: 20px;
-    height: 20px;
-}
-
-.footer-text{
-    margin: 5px;
-}
-
-.footer-center{
-    text-align: center;
-}
+/* ---------------------------------------------- */
