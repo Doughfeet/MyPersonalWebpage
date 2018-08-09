@@ -44,30 +44,48 @@ h1, h5, .footer-text{
 .title{
 }
 
-/* MENU TOP RIGHT */
+/* MENU*/
 .dropbtn{
     background-color: #287bf8;
     color: white;
     font-size: 20px;
-    border: none;
+    border: 0.1px solid white;;
+    cursor: pointer;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    text-align: center;
 }
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content{
     display: none;
-    flex-direction: column;
+    position: initial;
     background-color: #287bf8;
 }
 /* Change color of dropdown links on hover */
-.dropbtn:hover + .dropdown-content{
-    display: flex;
+.dropdown:hover .dropdown-content{
+    display: block;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
     color: white;
-    margin: 0;
-    padding: 0;
     text-decoration: none;
+    display: block;
+
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: white;
+    color: #287bf8;
+}
+
+.dropdown-links{
+    padding: 5px 0 0 0;
+    width: 200px;
+    border-bottom: 0.1px solid lightskyblue;
 }
 /* ---------------------------------------------- */
 
@@ -80,7 +98,7 @@ h1, h5, .footer-text{
     text-align: left;
 }
 .container-picture{
-    padding: 50px 0 0 0;
+    padding: 30px 0 0 0;
     text-align: center;
 }
 .main-photo{
