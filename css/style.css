@@ -15,10 +15,10 @@ html, body {
 .wrapper{
     background: linear-gradient(
         to bottom, 
-        #287bf8 0px, 
-        #287bf8 200px, 
-        white 200px, 
-        white 800px
+        #287bf8 0%, 
+        #287bf8 40%, 
+        white 40%, 
+        white 100%
       );
 }
 
@@ -49,8 +49,9 @@ h1, h5, .footer-text{
     background-color: #287bf8;
     color: white;
     font-size: 20px;
-    border: 0.1px solid white;;
+    border: 0.1px solid;
     cursor: pointer;
+    box-shadow: 1px 1px 1px black;
 }
 .dropdown{
     position: relative;
@@ -62,6 +63,7 @@ h1, h5, .footer-text{
     display: none;
     position: initial;
     background-color: #287bf8;
+    border-radius: 0;
 }
 /* Change color of dropdown links on hover */
 .dropdown:hover .dropdown-content{
@@ -80,12 +82,14 @@ h1, h5, .footer-text{
 .dropdown:hover .dropbtn {
     background-color: white;
     color: #287bf8;
+    border-radius: 0;
+    box-shadow: none;
 }
 
 .dropdown-links{
     padding: 5px 0 0 0;
     width: 200px;
-    border-bottom: 0.1px solid lightskyblue;
+    border: 0.1px solid lightskyblue;
 }
 /* ---------------------------------------------- */
 
