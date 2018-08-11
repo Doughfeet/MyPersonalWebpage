@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 html, body {
     height: 100%;
   }
@@ -24,7 +27,7 @@ html, body {
 
 /* COLOR HEADINGS and p */
 /* ---------------------------------------------- */
-h1, h5, .footer-text{
+h1, h5, .footer-text, nav, a{
     color: white;
 
 }
@@ -33,65 +36,32 @@ h1, h5, .footer-text{
 
 /* HEADING */
 /* ---------------------------------------------- */
-
 .content-heading{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/* TITLE */
-.title{
+.main-navigation{
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
 }
-
-/* MENU*/
-.dropbtn{
-    background-color: #287bf8;
-    color: white;
-    font-size: 20px;
-    border: 0.1px solid;
-    cursor: pointer;
-    box-shadow: 1px 1px 1px black;
+ul{
+    margin: 0;
+    padding: 0;
 }
-.dropdown{
-    position: relative;
-    display: inline-block;
-    text-align: center;
-}
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content{
-    display: none;
+.menu-parent{
     position: initial;
-    background-color: #287bf8;
-    border-radius: 0;
 }
-/* Change color of dropdown links on hover */
-.dropdown:hover .dropdown-content{
-    display: block;
-}
+.sub-menu{
 
-/* Links inside the dropdown */
-.dropdown-content a {
-    color: white;
+}
+.main-navigation a{
+    display: block;
     text-decoration: none;
-    display: block;
-
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-    background-color: white;
-    color: #287bf8;
-    border-radius: 0;
-    box-shadow: none;
-}
-
-.dropdown-links{
-    padding: 5px 0 0 0;
-    width: 200px;
-    border: 0.1px solid lightskyblue;
-}
-/* ---------------------------------------------- */
 
 
 /* CONTAINER CONTENT */
@@ -146,3 +116,57 @@ h1, h5, .footer-text{
     font-size: 28px;
 }
 /* ---------------------------------------------- */
+
+
+/* Menu big screen*/
+/* ---------------------------------------------- */
+/* HEADING */
+/* ---------------------------------------------- */
+
+/* HEADING */
+/* ---------------------------------------------- */
+
+/* .content-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dropbtn{
+    background-color: #287bf8;
+    color: white;
+    font-size: 20px;
+    border: 0.1px solid;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px black;
+}
+.dropdown{
+    position: initial;
+    display: inline-block;
+    text-align: center;
+}
+.dropdown-content{
+    display: none;
+    position: initial;
+    background-color: #287bf8;
+    border-radius: 0;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+.dropdown:hover .dropbtn {
+    background-color: white;
+    color: #287bf8;
+    border-radius: 0;
+    box-shadow: none;
+}
+.dropdown-links{
+    margin: 5px;
+    padding: 5px 0 5px 0;
+    width: 200px;
+    border: 0.1px solid lightskyblue;
+} */
