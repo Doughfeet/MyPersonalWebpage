@@ -36,7 +36,7 @@ h1, h5, .footer-text, nav, a{
 
 /* HEADING */
 /* ---------------------------------------------- */
-.content-heading{
+.content-heading * {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,8 +52,11 @@ h1, h5, .footer-text, nav, a{
     width: 100%;
     color: white;
     background-color: #287bf8;
-    border: 0.5px solid white;
+    border-bottom: 0.5px solid white;
     cursor: pointer;
+}
+.dropbtn{
+    border: 0.5px solid white;
 }
 .dropbtn, a{
     padding: 12px 16px;
@@ -70,6 +73,25 @@ h1, h5, .footer-text, nav, a{
     text-decoration: none;
     display: block;
 }
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+/* Change color of dropdown links on hover */
+.dropdown a:hover{
+    background-color: white;
+    color: #287bf8;
+}
+.dropdown a:nth-child(1):hover{
+    border-top: 1px solid #287bf8;
+}
+/* Color change on dropdown button when content is shown */
+.dropdown:hover .dropbtn{
+    background-color: white;
+    color: #287bf8;
+}
+
+
 
 
 
