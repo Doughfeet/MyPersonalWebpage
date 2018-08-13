@@ -115,9 +115,12 @@ h1, h5, .footer-text, nav, a{
 /* CONTAINER CONTENT */
 /* ---------------------------------------------- */
 .content-container{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    /* ! */
 }
 .container-picture{
     padding: 30px 0 0 0;
@@ -128,17 +131,19 @@ h1, h5, .footer-text, nav, a{
     box-shadow: 2px 2px 10px 1px black;
 }
 .container-information{
-
+    text-align: justify;
+    text-justify: inter-word;
 }
-.container-links{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+.container-line{
+    width: 100px;
+    margin: auto;
+    border-bottom: 1px solid #6D7993;
 }
 
 /* FOOTER */
 /* ---------------------------------------------- */
 #footer{
+    padding: 15px 0 10px 0;
     background-color: #6D7993;
 }
 .social-icon{
@@ -156,7 +161,6 @@ h1, h5, .footer-text, nav, a{
 }
 .footer-center{
     text-align: center;
-
 }
 /* ---------------------------------------------- */
 
