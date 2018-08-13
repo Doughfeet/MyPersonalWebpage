@@ -124,8 +124,7 @@ h1, h5, .footer-text, nav, a{
     text-align: center;
 }
 .main-photo{
-    width: 140px;
-    height: 200px;
+    width: 100%;
     box-shadow: 2px 2px 10px 1px black;
 }
 .container-information{
