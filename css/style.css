@@ -62,7 +62,7 @@ h1, h5, .footer-text, nav, a{
     width: 100%;
     color: white;
     background-color: #6D7993;
-    border-bottom: 0.5px solid white;
+    border-bottom: 1px solid white;
     cursor: pointer;
 }
 /* ---------------------------------------------- */
@@ -100,16 +100,14 @@ h1, h5, .footer-text, nav, a{
     background-color: #D5D5D5;
     color: white;
 }
-.dropdown a:nth-child(1):hover{
-    /* Equalizing stop the flickering, from box 1 to 2 */
-    margin-top: -1px;
-    border-top: 1px solid #6D7993;
-}
 /* Color change on dropdown button when content is shown */
 .dropdown:hover .dropbtn{
     background-color: #D5D5D5;
     color: #6D7993;
-    border: none;
+    border: 1px solid #6D7993;
+    border-top: 1px solid #9099A2;
+    border-left: 1px solid #9099A2;
+    border-right: 1px solid #9099A2;
 }
 /* ---------------------------------------------- */
 
@@ -142,29 +140,24 @@ h1, h5, .footer-text, nav, a{
 /* FOOTER */
 /* ---------------------------------------------- */
 #footer{
-    background-color: #9099A2;
+    background-color: #6D7993;
 }
 .social-icon{
     width: 20px;
     height: 20px;
 }
+.footer-spacing + .footer-spacing{
+    margin-left: 10px;
+}
 .footer-text{
     margin: 5px;
 }
+.copyright{
+    font-size: 12px;
+}
 .footer-center{
     text-align: center;
-}
-.links-button{
-    list-style-type: none;
-    width: 100%;
-    height: auto;
-    margin: 2px 0;
-    background-color: lightgrey;
-    border-bottom: 2px solid black;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-size: 28px;
+
 }
 /* ---------------------------------------------- */
 
