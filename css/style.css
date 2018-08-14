@@ -20,7 +20,7 @@ html, body {
   }
 
 .wrapper{
-    position: relative;
+    flex: 1 0 auto;
 
     background: linear-gradient(
         to bottom, 
@@ -45,7 +45,7 @@ h1, h5, .footer-text, nav, a{
 /* ---------------------------------------------- */
 .content-heading{
     text-align: center;
-    background-color: #6D7993;
+    background-color: #9099A2;
 }
 .dropdown * {
     display: flex;
@@ -144,6 +144,7 @@ h1, h5, .footer-text, nav, a{
 /* FOOTER */
 /* ---------------------------------------------- */
 #footer{
+    flex-shrink: 0;
     padding: 15px 0 10px 0;
     background-color: #6D7993;
 }
