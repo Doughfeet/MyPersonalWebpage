@@ -14,7 +14,7 @@
 html, body {
     height: 100%;
   }
-  body {
+body {
     display: flex;
     flex-direction: column;
   }
@@ -163,59 +163,6 @@ h1, h5, .footer-text, nav, a{
 }
 .footer-center{
     text-align: center;
+    padding-left: 10%;
 }
 /* ---------------------------------------------- */
-
-
-/* Menu big screen*/
-/* ---------------------------------------------- */
-/* HEADING */
-/* ---------------------------------------------- */
-
-/* HEADING */
-/* ---------------------------------------------- */
-
-/* .content-heading{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.dropbtn{
-    background-color: #287bf8;
-    color: white;
-    font-size: 20px;
-    border: 0.1px solid;
-    cursor: pointer;
-    box-shadow: 1px 1px 1px black;
-}
-.dropdown{
-    position: initial;
-    display: inline-block;
-    text-align: center;
-}
-.dropdown-content{
-    display: none;
-    position: initial;
-    background-color: #287bf8;
-    border-radius: 0;
-}
-.dropdown:hover .dropdown-content{
-    display: block;
-}
-.dropdown-content a {
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-}
-.dropdown:hover .dropbtn {
-    background-color: white;
-    color: #287bf8;
-    border-radius: 0;
-    box-shadow: none;
-}
-.dropdown-links{
-    margin: 5px;
-    padding: 5px 0 5px 0;
-    width: 200px;
-    border: 0.1px solid lightskyblue;
-} */
