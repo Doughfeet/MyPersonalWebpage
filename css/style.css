@@ -20,10 +20,10 @@ body {
 
     background: linear-gradient(
         to bottom, 
-        #9099A2 0, 
-        #9099A2 200px, 
-        #D5D5D5 200px,
-        #D5D5D5 2000px
+        #464866 0, 
+        #464866 200px, 
+        #AAABB8 200px,
+        #AAABB8 2000px
       );
   }
 
@@ -35,7 +35,10 @@ body {
 
 /* COLOR HEADINGS and p */
 /* ---------------------------------------------- */
-h1, h5, .footer-text, nav, a{
+h1, .footer-text {
+    color: #2E9CCA
+}
+h5, nav, a{
     color: white;
 }
 /* ---------------------------------------------- */
@@ -61,7 +64,7 @@ h1, h5, .footer-text, nav, a{
 .dropdown * {
     width: 100%;
     color: white;
-    background-color: #6D7993;
+    background-color: #29648A;
     border-bottom: 1px solid white;
     cursor: pointer;
 }
@@ -98,7 +101,7 @@ h1, h5, .footer-text, nav, a{
 /* Change color of dropdown links on hover */
 .dropdown a:hover{
     background-color: #D5D5D5;
-    color: white;
+    color: #2E9CCA;
 }
 /* Color change on dropdown button when content is shown */
 .dropdown:hover .dropbtn{
@@ -120,12 +123,13 @@ h1, h5, .footer-text, nav, a{
 .big-menu-nav a{
     padding: 14px 14px;
     text-decoration: none;
-    border: 1px solid #6D7993;
-    background-color: #6D7993;
+    border: 1px solid #29648A;
+    background-color: #29648A;
 }
 .big-menu-nav a:hover{
-    border: 1px solid #9099A2;
-    background-color: #9099A2;
+    border: 1px solid #D5D5D5;
+    background-color: #D5D5D5;
+    color: #2E9CCA;
 }
 /* ---------------------------------------------- */
 
@@ -156,7 +160,7 @@ h1, h5, .footer-text, nav, a{
 .container-line{
     width: 100px;
     margin: auto;
-    border-bottom: 1px solid #6D7993;
+    border-bottom: 1px solid #464866;
 }
 
 /* FOOTER */
@@ -164,7 +168,7 @@ h1, h5, .footer-text, nav, a{
 #footer{
     flex-shrink: 0;
     padding: 15px 0 10px 0;
-    background-color: #6D7993;
+    background-color: #464866;
 }
 .social-icon{
     width: 20px;
