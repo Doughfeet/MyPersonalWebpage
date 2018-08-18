@@ -50,23 +50,20 @@ min-width: 1024px: Targets the desktop view
 
     /* HEADING */
 /* ---------------------------------------------- */
-.content-heading{
-    display: flex;
-    flex-direction: row;
-}
-.title{
-    padding: 0 0 0 20px;
-}
+    .title{
+        width: 40%;
+        padding: 0 0 0 20px;
+    }
 
-.dropdown {
-    width: 40%;
-}
-.dropbtn{
-    border: none;
-}
-.footer-center{
-    text-align: left;
-}
+    .dropdown {
+        width: 40%;
+    }
+    .dropbtn{
+        border: none;
+    }
+    .footer-center{
+        width: 40%;
+    }
 
 
 
