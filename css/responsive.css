@@ -11,19 +11,18 @@ min-width: 1024px: Targets the desktop view
 */
 
 @media screen and (min-width: 480px){
-    .content-container > *{
-        flex: 1 1;
+    .content-container > * {
+        flex: 1 1 auto;
     }
     .content-container{
-        flex-direction: row;
-        margin-top: 20px;
+        padding-top: 20px;
     }
     .container-picture{
         padding: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         margin-right: 5px;
+    }
+    .main-photo{
+        width: 250px;
     }
     .container-information{
         width: auto;
@@ -32,37 +31,53 @@ min-width: 1024px: Targets the desktop view
 }
 
 
-
-
-
-
 @media screen and (min-width: 768px){
-    .wrapper, .content-heading, .main-footer{
-
+    body{
         background: linear-gradient(
             to right, 
             #9099A2 0%, 
-            #9099A2 40%, 
-            #D5D5D5 40%, 
+            #9099A2 30%, 
+            #D5D5D5 30%, 
             #D5D5D5 100%
           );
     }
 
     /* HEADING */
 /* ---------------------------------------------- */
-    .title{
-        width: 40%;
-        padding: 0 0 0 20px;
+    .content-heading{
+        width: 30%;
     }
 
-    .dropdown {
-        width: 40%;
+    /* DROPDOWN */
+/* ---------------------------------------------- */
+.dropbtn{
+    border: none;
+    visibility: hidden;
+}    
+.dropdown {
+        width: 30%;
     }
-    .dropbtn{
-        border: none;
-    }
-    .footer-center{
-        width: 40%;
+
+    /* WRAPPER */
+/* ---------------------------------------------- */
+
+    /* MAIN CONTENT */
+/* ---------------------------------------------- */
+.content-container{
+    flex-direction: row;
+}
+.container-picture{
+    margin-left: 10%;
+}
+.main-photo{
+    width: 400px;
+}
+    /* BIG-NAV */
+/* ---------------------------------------------- */
+    /* FOOTER */
+/* ---------------------------------------------- */
+    .main-footer{
+        width: 30%;
     }
 
 
