@@ -50,10 +50,10 @@ min-width: 1024px: Targets the desktop view
 
     /* DROPDOWN */
 /* ---------------------------------------------- */
-.dropbtn{
-    border: none;
-    visibility: hidden;
-}    
+    .dropbtn{
+        border: none;
+        visibility: hidden;
+    }    
 .dropdown {
         width: 30%;
     }
@@ -63,21 +63,27 @@ min-width: 1024px: Targets the desktop view
 
     /* MAIN CONTENT */
 /* ---------------------------------------------- */
-.content-container{
-    flex-direction: row;
-}
-.container-picture{
-    margin-left: 10%;
-}
-.main-photo{
-    width: 400px;
-}
+    .content-container{
+        padding-top: 0;
+        flex-direction: row;
+    }
+    .container-picture{
+        margin-left: 10%;
+    }
+    .main-photo{
+        width: 300px;
+    }
     /* BIG-NAV */
 /* ---------------------------------------------- */
+    .big-menu-content{
+        visibility: visible;
+    }
+
     /* FOOTER */
 /* ---------------------------------------------- */
-    .main-footer{
+    #footer{
         width: 30%;
+        background-color: #9099A2;
     }
 
 
