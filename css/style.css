@@ -76,6 +76,7 @@ h5, nav, a{
 /* ---------------------------------------------- */
 .dropbtn{
     border: 1px solid white;
+    visibility: visible;
 }
 /* Content dropdown */
 .dropbtn, a{
@@ -96,6 +97,7 @@ h5, nav, a{
 }
 /* Show dropdown on hover */
 .dropdown:hover .dropdown-content{
+    visibility: visible;
     display: block;
 }
 /* Change color of dropdown links on hover */
