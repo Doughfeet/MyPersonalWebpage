@@ -11,7 +11,7 @@
 }
 /* -------------------------- */
 
-html, body {
+body {
     height: 100%;
   }
 body {
@@ -20,10 +20,10 @@ body {
 
     background: linear-gradient(
         to bottom, 
-        #464866 0, 
+        #464866 0px, 
         #464866 200px, 
         #AAABB8 200px,
-        #AAABB8 2000px
+        #AAABB8 5000px
       );
   }
 
