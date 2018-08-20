@@ -11,13 +11,17 @@
 }
 /* -------------------------- */
 
-body {
-    height: 100%;
+html {
+    height: 100vh;
+    background: #464866;
   }
+  body {
+    min-height: 100vh;
+  }
+
 body {
     display: flex;
     flex-direction: column;
-
     background: linear-gradient(
         to bottom, 
         #464866 0px, 
@@ -25,6 +29,8 @@ body {
         #AAABB8 200px,
         #AAABB8 5000px
       );
+      margin: 0;
+      background-repeat: no-repeat;
   }
 
 .wrapper{
