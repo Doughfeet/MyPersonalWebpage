@@ -184,14 +184,14 @@ ul.skills {
   .skills li {
     border-radius: 6px;
     display: inline-block;
-    background: #E6D72A;
+    background: #2E9CCA;
     color: white;
     padding: 5px 10px;
     margin: 2px;
   }
   
   .skills li:nth-child(odd) {
-    background: #F18D9E;
+    background: #464866;
   }
 /* ---------------------------------------------- */
 
