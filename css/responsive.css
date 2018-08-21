@@ -11,6 +11,9 @@ min-width: 1024px: Targets the desktop view
 */
 
 @media screen and (min-width: 480px){
+    /**********************************
+    INDEX
+    ***********************************/
     .content-container > * {
         flex: 1 1 auto;
     }
@@ -27,6 +30,12 @@ min-width: 1024px: Targets the desktop view
     .container-information{
         width: auto;
         padding-left: 20px;
+    }
+    /**********************************
+    RESUMESTYLE
+    ***********************************/
+    .flex{
+        flex-direction: row;
     }
 }
 
