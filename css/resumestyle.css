@@ -163,7 +163,30 @@ MAIN CONTENT
     display: flex;
     flex-direction: column;
 }
-
+.main-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px auto;
+    text-align: left;
+    width: 90%;
+    background: #D5D5D5;
+    border-bottom: 6px solid #ccc;
+}
+.flex-child{
+    flex: 1;
+    flex-grow: 1;
+    text-align: center;
+}
+.flex-child:nth-child(even){
+    border-left: 1px solid #ccc;
+}
+.main-card:hover{
+    border-color: #29648A; 
+}
+.main-card:hover .flex-child:nth-child(even){
+    border-color: #2E9CCA;
+}
 .card{
     margin: 10px auto;
     padding: 10px 10px 20px;
