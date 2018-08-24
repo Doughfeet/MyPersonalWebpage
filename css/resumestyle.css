@@ -191,37 +191,37 @@ MAIN CONTENT
     font-size: 10px;
 }
 /* ------------------------------------------------- */
+
+
 .flex-child{
     flex: 1;
     flex-grow: 1;
     text-align: center;
     margin: 10px auto;
-    padding: 10px 10px 5px;
+    padding: 10px 1px 5px;
     border-bottom: 8px solid #ccc;
     border-left: 2px solid #ccc;
     border-radius: 6px;
     background-color: #D5D5D5;
     cursor: pointer;
 }
-
-.main-card .flex-child:hover{
+.flex-child:hover{
     border-color: #2E9CCA;
 }
 
 
+
 /* SHOW CARDS-------------------------------------- */
-.main-card .show-goals:hover ~ .card-goals{
+.show-goals:hover ~ .card-goals{
     display: block;
 }
-.main-card .show-goals:hover ~ .card-education{
+.show-goals:hover ~ .card-education{
     display: none;
 }
-
-
-.main-card .show-programming:hover ~ .card-programming{
+.show-programming:hover ~ .card-programming{
     display: block;
 }
-.main-card .show-programming:hover ~ .card-education{
+.show-programming:hover ~ .card-education{
     display: none;
 }
 /* ------------------------------------------------- */
@@ -234,17 +234,15 @@ MAIN CONTENT
     text-align: left;
     background: #D5D5D5;
 }
-
-
 .card-education{
     display: block;
 }
 
+/* CHILD SKILLS-------------------------------------- */
 ul.skills {
     padding: 0;
     text-align: center;
 }
-  
 .skills li {
     border-radius: 6px;
     display: inline-block;
@@ -253,11 +251,9 @@ ul.skills {
     padding: 5px 10px;
     margin: 2px;
 }
-
 .skills li:nth-child(odd) {
     background: #464866;
 }
-
 .card-heading{
     margin-top: 0;
     border-bottom: .5px solid #464866;
@@ -268,9 +264,6 @@ ul.skills {
 .education-info{
     margin: 0;
 }
-
-
-/* ---------------------------------------------- */
 
 
 /**********************************
