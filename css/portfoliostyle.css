@@ -162,7 +162,7 @@ MENU BIG SCREEN
 MAIN CONTENT
 ***********************************/
 .content-container{
-    padding-top: 50px;
+    padding-top: 20px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -173,9 +173,13 @@ MAIN CONTENT
 
 /* Slideshow container */
 .container-headline{
+    margin-bottom: 0;
     border-radius: 5px;
+    text-align: center;
     background-color: #29648A;
     color: #f1f1f1;
+    font-size: 30px;
+    width: 300px;
 }
 .slider-holder{
     width: 300px;
@@ -215,6 +219,7 @@ MAIN CONTENT
     color: #f1f1f1; 
     background: rgba(0, 0, 0, 0.5);
     width: 100%;
+    height: 70px;
     text-decoration: none;
 }
 #slider-webpage-1:target ~ .image-holder
@@ -245,17 +250,21 @@ MAIN CONTENT
 
 .slider-change
 {
+    font-size: 20px;
     display: inline-block;
-    height: 50px;
-    width: 100px;
+    margin-top: -70px;
+    height: 70px;
+    width: 50px;
     border-radius: 5px;
-    background-color: #29648A;
+    background: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    z-index: 2;
 }
 .right-slider::before{
-    content: "test";
+    content: ">>";
 }
 .left-slider::before{
-    content: "Test";
+    content: "<<";
 }
 
 /* ---------------------------------------------- */
