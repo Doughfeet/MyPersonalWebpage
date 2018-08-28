@@ -71,6 +71,7 @@ HEADING
     position: sticky;
     display: inline-block;
     top: -0.8px;
+    z-index: 100;
 }
 /* Change visuals in all the elements inside dropdown */
 .dropdown * {
@@ -100,7 +101,8 @@ BUTTON "SMALL SCREEN"
     position: absolute;
     width: 100%;
     text-align: center;
-    z-index: 1;
+    position: absolute;
+    z-index: 40;
 }
 /* Links inside the dropdown */
 .dropdown-content a {
@@ -166,6 +168,7 @@ MAIN CONTENT
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    z-index: 0;
 }
 
 /* Slideshow container */
