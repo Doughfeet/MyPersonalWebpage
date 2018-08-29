@@ -43,6 +43,7 @@ min-width: 1024px: Targets the desktop view
 @media screen and (min-width: 768px){
     .wrapper{
         width: 95%;
+        margin: auto;
     }
     body{
         background: linear-gradient(
@@ -58,6 +59,9 @@ min-width: 1024px: Targets the desktop view
 /* ---------------------------------------------- */
     .content-heading{
         width: 30%;
+    }
+    .title{
+        margin-bottom: 0;
     }
 
     /* DROPDOWN */
@@ -90,6 +94,7 @@ min-width: 1024px: Targets the desktop view
 /* ---------------------------------------------- */
     .big-menu-content{
         visibility: visible;
+        
     }
 
     /* FOOTER */
@@ -97,6 +102,22 @@ min-width: 1024px: Targets the desktop view
     #footer{
         width: 30%;
         background-color: #464866;
+    }
+    /**********************************
+    RESUME
+    ***********************************/
+    .main-card{
+        padding-top: 0;
+    }
+    /**********************************
+    PORTFOLIO
+    ***********************************/
+    .flex-slider{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .content-container-slider{
+        padding-top: 0;
     }
 }
 

@@ -140,7 +140,7 @@ MENU BIG SCREEN
     justify-content: flex-end;
 }
 .big-menu-nav{
-    padding: 50px 0 0 0;
+    padding: 0;
 }
 .big-menu-nav a{
     padding: 14px 14px;
@@ -271,7 +271,7 @@ FOOTER
 ***********************************/
 #footer{
     flex-shrink: 0;
-    padding: 15px 0 10px 0;
+    padding: 0 0 10px 0;
     background-color: #464866;
 }
 .social-icon{
