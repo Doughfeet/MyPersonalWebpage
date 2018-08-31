@@ -54,6 +54,7 @@ nav, a{
 
 .wrapper{
     flex: auto;
+    height: 100%;
 }
 /**********************************
 HEADING
@@ -138,12 +139,15 @@ MENU BIG SCREEN
     flex-shrink: 0;
     flex-direction: row;
     justify-content: flex-end;
+    padding-right: 6.5%;
+    padding-top: 30px;
 }
 .big-menu-nav{
     padding: 0;
 }
 .big-menu-nav a{
     padding: 14px 14px;
+    margin-right: 5px;
     text-decoration: none;
     border: 1px solid #29648A;
     background-color: #29648A;
@@ -230,10 +234,11 @@ MAIN CONTENT
 .card{
     display: none;
     margin: auto;
-    padding: 10px 10px 80px;
+    padding: 0px 10px 0px;
     text-align: left;
-    background: #D5D5D5;
+    background: #AAABB8;
 }
+
 .card-education{
     display: block;
 }

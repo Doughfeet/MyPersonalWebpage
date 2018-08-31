@@ -37,6 +37,7 @@ min-width: 1024px: Targets the desktop view
     .flex{
         flex-direction: row;
     }
+
 }
 
 
@@ -106,9 +107,37 @@ min-width: 1024px: Targets the desktop view
     /**********************************
     RESUME
     ***********************************/
+    .wrapper{
+        display: flex;
+        flex-direction: row;
+    }
+    .content-heading{
+        width: 300px;
+    }
+    .flex-child{
+        display: none;
+    }
     .main-card{
         padding-top: 0;
+        margin: 10% 0 0 5%;
     }
+    .flex{
+        width: 100%;
+        margin: 0;
+    }
+    .card{
+        display: block;
+        margin: 5px 0;
+        border-radius: 6px;
+        background-color: #29648A;
+    }
+    .card > *{
+        color: white;
+    }
+    .dropdown{
+        display: none;
+    }
+
     /**********************************
     PORTFOLIO
     ***********************************/
